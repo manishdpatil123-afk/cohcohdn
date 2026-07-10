@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#1E1E1E"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/txtIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📄"
+        android:textSize="22sp"
+        android:layout_marginEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPdfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample.pdf"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txtPdfPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/storage/..."
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="middle"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LeanPDF</string>
+
+    <string name="title_home">LeanPDF</string>
+
+    <string name="status_scanning">Scanning for PDF files...</string>
+
+    <string name="status_no_pdf">No PDF files found.</string>
+
+    <string name="status_usb_connected">USB Connected</string>
+
+    <string name="status_usb_disconnected">USB Disconnected</string>
+
+    <string name="open_pdf">Open PDF</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="next">Next</string>
+
+    <string name="zoom_in">Zoom In</string>
+
+    <string name="zoom_out">Zoom Out</string>
+
+    <string name="go_to_page">Go to Page</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="loading">Loading...</string>
+
+    <string name="page_format">Page %1$d / %2$d</string>
+
+    <string name="permission_required">
+        Storage permission is required to read PDF files.
+    </string>
+
+</resources>
